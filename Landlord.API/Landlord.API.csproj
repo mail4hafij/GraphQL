@@ -293,7 +293,7 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LandlordDFK.SRC\Landlord.SRC.csproj">
+    <ProjectReference Include="..\Landlord.SRC\Landlord.SRC.csproj">
       <Project>{adc268aa-14ff-4f1a-9031-b644b225804f}</Project>
       <Name>Landlord.SRC</Name>
     </ProjectReference>
