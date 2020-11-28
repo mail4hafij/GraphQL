@@ -9,9 +9,7 @@ How to run locally: You need to use Postman (or other similar tools you are fami
 
 A dummy GraphQL query is following 
 
-{
-  properties { payments {id} }
-}
+``` { properties { payments {id} } } ```
 
 
 
