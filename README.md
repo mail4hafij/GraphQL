@@ -5,7 +5,8 @@ There are two projects in the solution.
 1. Landlord.API - which has all the setup for GraphQL server. I use Ninject dependency injection for this project. 
 2. Landlord.SRC - which has all the business logic.
 
-How to run locally: You need to use Postman (or other similar tools you are familier with) to make a GraphQL reqeust. The URL to the GraphQL server (after you run the Landlord.API project) is, https://localhost:44302/api/graphql (adjust your port number if needed).
+## How to run locally: 
+You need to use Postman (or other similar tools you are familier with) to make a GraphQL reqeust. The URL to the GraphQL server (after you run the Landlord.API project) is, https://localhost:44302/api/graphql (adjust your port number if needed).
 
 A dummy GraphQL query is following 
 
