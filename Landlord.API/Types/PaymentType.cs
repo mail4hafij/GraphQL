@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 
-namespace Landlord.API.Types.Payment
+namespace Landlord.API.Types
 {
     public class PaymentType : ObjectGraphType<SRC.Models.Payment>
     {

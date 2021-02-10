@@ -10,7 +10,7 @@ You need to use Postman (or other similar tools you are familier with) to make a
 
 A dummy GraphQL query is following 
 
-``` { properties { payments {id} } } ```
+``` { properties { objectNumber, street, city, postalCode, country, payments {id, paid, value, dateCreated, dateOverdue} } } ```
 
 
 

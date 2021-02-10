@@ -12,8 +12,7 @@ namespace Landlord.App_Start
     using Landlord.API.Mutations;
     using Landlord.API.Queries;
     using Landlord.API.Schema;
-    using Landlord.API.Types.Payment;
-    using Landlord.API.Types.Property;
+    using Landlord.API.Types;
     using Landlord.SRC.Repositories;
     using Landlord.SRC.Repositories.Contracts;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
@@ -21,6 +20,7 @@ namespace Landlord.App_Start
     using Ninject.Web.Common;
     using Ninject.Web.Common.WebHost;
     using Landlord.API.Models;
+    using Landlord.API.Types.Property.InputTypes;
 
     public static class NinjectWebCommon 
     {

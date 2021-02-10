@@ -1,5 +1,5 @@
 ﻿using GraphQL.Types;
-using Landlord.API.Types.Property;
+using Landlord.API.Types;
 using Landlord.SRC.Repositories.Contracts;
 
 namespace Landlord.API.Queries

@@ -5,11 +5,11 @@ namespace Landlord.SRC.Models
     public class Property
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string City { get; set; }
+        public string ObjectNumber { get; set; }
         public string Street { get; set; }
-        public decimal Value { get; set; }
-        public string Family { get; set; }
+        public string City { get; set; }
+        public string PostalCode { get; set; }
+        public string Country { get; set; }
         public ICollection<Payment> Payments { get; set; }
     }
 }

@@ -20,11 +20,11 @@ namespace Landlord.SRC.Repositories
                 new Property
                 {
                     Id = 1,
+                    ObjectNumber = "1101",
+                    Street = "Stenhagen",
                     City = "Uppsala",
-                    Family = "family",
-                    Name = "name",
-                    Street = "street",
-                    Value = 123,
+                    PostalCode = "75267",
+                    Country = "Sweden",
                     Payments = new List<Payment>
                     {
                         new Payment
@@ -34,7 +34,7 @@ namespace Landlord.SRC.Repositories
                             DateCreated = DateTime.Now,
                             DateOverdue = DateTime.Now.AddDays(3),
                             Paid = false,
-                            Value = 123
+                            Value = 4000
                         },
                         new Payment
                         {
@@ -43,7 +43,7 @@ namespace Landlord.SRC.Repositories
                             DateCreated = DateTime.Now,
                             DateOverdue = DateTime.Now.AddDays(3),
                             Paid = true,
-                            Value = 123
+                            Value = 6000
                         }
                     }
                 }
@@ -55,11 +55,11 @@ namespace Landlord.SRC.Repositories
             return new Property
             {
                 Id = 1,
+                ObjectNumber = "1101",
+                Street = "Stenhagen",
                 City = "Uppsala",
-                Family = "family",
-                Name = "name",
-                Street = "street",
-                Value = 123,
+                PostalCode = "75267",
+                Country = "Sweden",
                 Payments = new List<Payment>
                 {
                     new Payment
@@ -69,7 +69,7 @@ namespace Landlord.SRC.Repositories
                         DateCreated = DateTime.Now,
                         DateOverdue = DateTime.Now.AddDays(3),
                         Paid = false,
-                        Value = 123
+                        Value = 4000
                     },
                     new Payment
                     {
@@ -78,7 +78,7 @@ namespace Landlord.SRC.Repositories
                         DateCreated = DateTime.Now,
                         DateOverdue = DateTime.Now.AddDays(3),
                         Paid = true,
-                        Value = 123
+                        Value = 6000
                     }
                 }
             };
@@ -89,11 +89,11 @@ namespace Landlord.SRC.Repositories
             return new Property
             {
                 Id = 1,
-                City = "Uppsala",
-                Family = "family",
-                Name = "name",
-                Street = "street",
-                Value = 123,
+                ObjectNumber = property.ObjectNumber,
+                Street = property.Street,
+                City = property.City,
+                PostalCode = property.PostalCode,
+                Country = property.Country,
                 Payments = new List<Payment>
                 {
                     new Payment
@@ -103,7 +103,7 @@ namespace Landlord.SRC.Repositories
                         DateCreated = DateTime.Now,
                         DateOverdue = DateTime.Now.AddDays(3),
                         Paid = false,
-                        Value = 123
+                        Value = 5000
                     },
                     new Payment
                     {
@@ -112,7 +112,7 @@ namespace Landlord.SRC.Repositories
                         DateCreated = DateTime.Now,
                         DateOverdue = DateTime.Now.AddDays(3),
                         Paid = true,
-                        Value = 123
+                        Value = 5000
                     }
                 }
             };
