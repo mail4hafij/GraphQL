@@ -88,7 +88,7 @@ namespace Landlord.SRC.Repositories
         {
             return new Property
             {
-                Id = 1,
+                Id = 2,
                 ObjectNumber = property.ObjectNumber,
                 Street = property.Street,
                 City = property.City,
@@ -99,7 +99,7 @@ namespace Landlord.SRC.Repositories
                     new Payment
                     {
                         Id = 1,
-                        PropertyId = 1,
+                        PropertyId = 2,
                         DateCreated = DateTime.Now,
                         DateOverdue = DateTime.Now.AddDays(3),
                         Paid = false,
@@ -108,7 +108,7 @@ namespace Landlord.SRC.Repositories
                     new Payment
                     {
                         Id = 2,
-                        PropertyId = 1,
+                        PropertyId = 2,
                         DateCreated = DateTime.Now,
                         DateOverdue = DateTime.Now.AddDays(3),
                         Paid = true,
