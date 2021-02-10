@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 using Landlord.API.Types;
-using Landlord.API.Types.Property.InputTypes;
+using Landlord.API.Types.InputTypes;
 using Landlord.SRC.Models;
 using Landlord.SRC.Repositories.Contracts;
 

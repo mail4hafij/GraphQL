@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 
-namespace Landlord.API.Types.Property.InputTypes
+namespace Landlord.API.Types.InputTypes
 {
     public class PropertyInputType : InputObjectGraphType<SRC.Models.Property>
     {

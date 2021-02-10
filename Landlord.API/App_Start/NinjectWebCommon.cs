@@ -20,7 +20,7 @@ namespace Landlord.App_Start
     using Ninject.Web.Common;
     using Ninject.Web.Common.WebHost;
     using Landlord.API.Models;
-    using Landlord.API.Types.Property.InputTypes;
+    using Landlord.API.Types.InputTypes;
 
     public static class NinjectWebCommon 
     {
