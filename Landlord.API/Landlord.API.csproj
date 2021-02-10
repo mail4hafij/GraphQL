@@ -206,7 +206,7 @@
     <Compile Include="Queries\PropertyQuery.cs" />
     <Compile Include="Schema\LandlordSchema.cs" />
     <Compile Include="Types\PaymentType.cs" />
-    <Compile Include="Types\Property\PropertyInputType.cs" />
+    <Compile Include="Types\InputTypes\PropertyInputType.cs" />
     <Compile Include="Types\PropertyType.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -262,7 +262,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Types\InputTypes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
